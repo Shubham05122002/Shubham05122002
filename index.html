@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Singh</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <li onclick="toggleClass('home');addactive(0)">HOME</li>
+        <li onclick="toggleClass('life');addactive(1)">LIFE</li>
+        <li onclick="toggleClass('project');addactive(2)">PROJECTS</li>
+        <li onclick="toggleClass('reading');addactive(3)">READING</li>
+        <!-- <li onclick="toggleClass('sketching');addactive(4)">SKETCHING</li> -->
+    </nav>
+    <div class="side">
+        <div class="side-content">
+          <img id="profile" src="public/profile.jpeg" alt="profile photo">
+          <div id="profile-name">Shubham Singh</div>
+          <div id="short-descp">
+            <p id="quote">
+             “If you don’t take risks,<br/>
+             you can’t create a future!” <br/> 
+             — Monkey D. Luffy<br/><br/>
+            </p>
+             <span id="anime"></span><br/>
+             <span id="cs"></span><br/>
+             <span id="gaming"></span><br/>
+          </div>
+          <div id="contact">
+            <li><a href="mailto: shubhamsingh05122002@gmail.com" target="_blank" ><img src="public/icons/gmail.svg"></a></li>
+            <li><a href="https://github.com/Shubham05122002" target="_blank"><img src="public/icons/github.svg"></a></li>
+            <li><a href="https://www.linkedin.com/in/shubham-singh-164549226/" target="_blank"><img src="public/icons/linkedin.svg"></a></li>
+            <li><a href="https://instagram.com/shubham_singh.05?igshid=NDU3Y2E5ZmY=" target="_blank"><img src="public/icons/instagram.svg"></a></li>
+          </div>
+        </div>
+    </div>
+    <div class="main">
+      <div class="visible" id="home">
+        <div>About Me<br/><br/></div>
+        Hello, I'm Shubham Singh, a passionate 3rd-year student at BIT Mesra, specializing in Electronics and Communication Engineering. 
+        With a strong focus on machine learning,
+        I have dedicated the past two years to honing my skills through personal projects.While I am yet to achieve notable accomplishments, 
+        I have gained valuable experience and knowledge in the field.<br/><br/>
+        I hold a relevant certification in deep learning, specializing in Andrew Ng's renowned program. 
+        As I navigate my professional journey, my core values include diligence, perseverance, and a thirst 
+        for continuous learning.<br/><br/>
+        One of my distinctive approaches to problem-solving is to face challenges with tact, analyzing them 
+        from multiple perspectives and seeking innovative solutions. I believe that a well-rounded understanding
+         of problems enables me to develop effective and creative strategies.<br/><br/>
+        Looking ahead, my future goals revolve around expanding my research in the exciting realm of
+        Artificial Intelligence and Machine Learning. I am particularly interested in the development of strong AI 
+        and exploring ways to imbue AI systems with the ability to understand and express emotions.
+        I am eager to contribute to the advancement of AI and ML technologies, 
+        pushing the boundaries of what is possible. Join me on this journey as we unravel 
+        the mysteries of artificial intelligence and unlock its full potential.<br/><br/>
+      </div>
+      <div class="hidden" id="life">Wish I have something interesting going on</div>
+      <div class="hidden" id="project">Need to build and update this thing</div>
+      <div class="hidden" id="reading">
+        <li>
+          <span>"How to Win Friends and Influence People"- Dale Carnegie<br/><br/></span> 
+          Through practical advice and real-life examples, the book provides actionable strategies to enhance 
+          communication skills, foster empathy, and create lasting connections, ultimately empowering readers to
+          navigate social interactions with confidence and authenticity.<br/>
+        </li>
+        <li>
+          <span>"Eat That Frog!"- Brian Tracy<br/><br/></span> 
+          It is a productivity guide that emphasizes tackling the most challenging tasks first. Drawing on the
+          principle of overcoming procrastination, the book provides practical techniques and effective strategies 
+          to prioritize, focus, and accomplish important goals, enabling readers to maximize their productivity and
+          achieve success in both personal and professional endeavors.<br/>
+        </li>
+      </div>
+      <!-- <div class="hidden" id="sketching">sketching content</div> -->
+    </div>
+</body>
+</html>
